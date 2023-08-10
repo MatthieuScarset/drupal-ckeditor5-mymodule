@@ -1,0 +1,12 @@
+mymodule_myplugin:
+  ckeditor5:
+    plugins: [myplugin.MyPlugin]
+  drupal:
+    label: 'My Plugin'
+    library: mymodule/myplugin
+    admin_library: mymodule/admin
+    toolbar_items:
+      myplugin:
+        label: 'My Plugin'
+    elements:
+      - <$any-html5-element placeholder>

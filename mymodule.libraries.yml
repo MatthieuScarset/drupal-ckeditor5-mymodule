@@ -1,0 +1,10 @@
+myplugin:
+  js:
+    build/myplugin.js: { minified: true }
+  dependencies:
+    - ckeditor5/ckeditor5
+
+admin:
+  css:
+    theme:
+      css/admin.css: {}
