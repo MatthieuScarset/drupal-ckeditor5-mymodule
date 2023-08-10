@@ -9,4 +9,4 @@ mymodule_myplugin:
       myplugin:
         label: 'My Plugin'
     elements:
-      - <$any-html5-element placeholder>
+      - <$any-html5-element>
